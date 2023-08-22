@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#griglia {
+  width: 800px;
+  height: 800px;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: calc(100% / 10);
+  aspect-ratio: 1;
+  background-color: rgba(0, 98, 255, 0.953);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aqua {
+  background-color: aqua;
+}
+.bomb {
+  background-color: red;
+}
